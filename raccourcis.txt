@@ -1,0 +1,32 @@
+delete line : ctrl+maj+k
+delete from cursor to end of line : ctrl+kk
+delete from cursor to start of line : ctrl+k+del
+
+sublime alignment : Ctrl+Alt+A
+Color Picker : ctrl+shift+c
+Duplicate Lines : ctrl+maj+d
+Emmet :
+  Expand Abbreviation – Tab or Ctrl+E
+  Interactive “Expand Abbreviation” — Ctrl+Alt+Enter
+  Match Tag Pair Outward – Ctrl+, (PC)
+  Match Tag Pair Inward - Shift+Ctrl+0
+  Go to Matching Pair - Ctrl+Alt+J
+  Wrap With Abbreviation - Shift+Ctrl+G
+  Go to Edit Point — Ctrl+Alt+→ or Ctrl+Alt+←
+  Select Item – Shift+Ctrl+. or Shift+Ctrl+,
+  Toggle Comment — Shift+Ctrl+/
+  Split/Join Tag — Shift+Ctrl+`
+  Remove Tag – Shift+Ctrl+;
+  Update Image Size — Ctrl+U
+  Evaluate Math Expression — Shift+Ctrl+Y
+  Reflect CSS Value – / Shift+Ctrl+R
+  Encode/Decode Image to data:URL –  Ctrl+'
+  Rename Tag – / Shift+Ctrl+'
+  Increment by 1: Ctrl+↑
+  Decrement by 1: Ctrl+↓
+  Increment by 0.1: Alt+↑
+  Decrement by 0.1: Alt+↓
+  Increment by 10: Shift+Alt+↑
+  Decrement by 10: Shift+Alt+↓
+Expand selection to quotes : Ctrl+'
+oddly : alt+shift+o
