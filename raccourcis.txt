@@ -1,11 +1,15 @@
-delete line : ctrl+maj+k
-delete from cursor to end of line : ctrl+kk
-delete from cursor to start of line : ctrl+k+del
+delete line: ctrl+maj+k
+delete from cursor to end of line: ctrl+kk
+delete from cursor to start of line: ctrl+k+del
+select line - Repeat to select next lines: ctrl + l
+select word - reapeat to select other occurences: ctrl + d
+jump to closing parenthesse: ctrl + m
+select all contents of the current parentheses: ctrl + maj + k
 
-sublime alignment : Ctrl+Alt+A
-Color Picker : ctrl+shift+c
-Duplicate Lines : ctrl+maj+d
-Emmet :
+sublime alignment: Ctrl+Alt+A
+Color Picker: ctrl+shift+c
+Duplicate Lines: ctrl+maj+d
+Emmet:
   Expand Abbreviation – Tab or Ctrl+E
   Interactive “Expand Abbreviation” — Ctrl+Alt+Enter
   Match Tag Pair Outward – Ctrl+, (PC)
@@ -29,4 +33,15 @@ Emmet :
   Increment by 10: Shift+Alt+↑
   Decrement by 10: Shift+Alt+↓
 Expand selection to quotes : Ctrl+'
+SublimeCodeIntel:
+  Jump to definition = Alt+Click
+  Jump to definition = Control+Windows+Alt+Up
+  Go back = Control+Windows+Alt+Left
+  Manual Code Intelligence = Control+Shift+space
+
 oddly : alt+shift+o
+
+commande git utile :
+git log -p -x
+-p permet de voir les modifs effectuees
+-x désigne le nombre de commits a afficher
