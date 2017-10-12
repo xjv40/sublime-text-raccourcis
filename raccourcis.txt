@@ -1,14 +1,21 @@
-delete line: ctrl+maj+k
+delete line: ctrl+shift+k
 delete from cursor to end of line: ctrl+kk
 delete from cursor to start of line: ctrl+k+del
 select line - Repeat to select next lines: ctrl + l
 select word - reapeat to select other occurences: ctrl + d
+duplicate line(s): ctrol + maj + d
 jump to closing parenthesse: ctrl + m
-select all contents of the current parentheses: ctrl + maj + M
+select all contents of the current parentheses: ctrl + shift + M
+invert 2 letters or word: ctrl + t
+search in any files: ctrl + p
+go to function: ctrl + r == ctrl + p and @
+go to word: ctrl + ; == ctrl + p and #
+go to line: ctrl + g == ctrl + p and :
+past and indent correctly: ctrl + shift + v
 
-sublime alignment: Ctrl+Alt+A
+sublime alignment: Ctrl+Alt+A (make it many times)
 Color Picker: ctrl+shift+c
-Duplicate Lines: ctrl+maj+d
+Duplicate Lines: ctrl+shift+d
 Emmet:
   Expand Abbreviation – Tab or Ctrl+E
   Interactive “Expand Abbreviation” — Ctrl+Alt+Enter
@@ -38,6 +45,8 @@ SublimeCodeIntel:
   Jump to definition = Control+Windows+Alt+Up
   Go back = Control+Windows+Alt+Left
   Manual Code Intelligence = Control+Shift+space
+AdvancedNewFile:
+  create new file: ctrl + alt + n  
 
 oddly : alt+shift+o
 
