@@ -1,58 +1,58 @@
-delete line                                      = ctrl+shift+k
-delete from cursor to end of line                = ctrl+kk
-delete from cursor to start of line              = ctrl+k+del
+delete line                                      = ctrl + shift + k
+delete from cursor to end of line                = ctrl + kk
+delete from cursor to start of line              = ctrl + k + del
 select line - Repeat to select next lines        = ctrl + l
 select word - reapeat to select other occurences = ctrl + d
-duplicate line(s)                                = ctrol + maj + d
-jump to closing parenthesse                      = ctrl + m
+duplicate line(s)                                = ctrl + maj + d
+jump to closing parentheses                      = ctrl + m
 select all contents of the current parentheses   = ctrl + shift + M
 invert 2 letters or word                         = ctrl + t
 search in any files                              = ctrl + p
-go to function                                   = ctrl + r == ctrl + p and @
-go to word                                       = ctrl + ;     == ctrl + p and #
-go to line                                       = ctrl + g     == ctrl + p and :
 past and indent correctly                        = ctrl + shift + v
+go to function                                   = ctrl + r == ctrl + p and @
+go to word                                       = ctrl + ; == ctrl + p and #
+go to line                                       = ctrl + g == ctrl + p and :
 
-sublime alignment                                = Ctrl+Alt+A (make it many times)
+sublime alignment                                = ctrl + alt + a (make it many times)
 
-Color Picker                                     = ctrl+shift+c
+Color Picker                                     = ctrl + shift + c
 
-Duplicate Lines                                  = ctrl+shift+d
+Duplicate Lines                                  = ctrl + shift + d
 
 Emmet:
-  Expand Abbreviation                            = Tab or Ctrl+E
-  Interactive “Expand Abbreviation”              = Ctrl+Alt+Enter
-  Match Tag Pair Outward                         = Ctrl+, (PC)
-  Match Tag Pair Inward                          = Shift+Ctrl+0
-  Go to Matching Pair                            = Ctrl+Alt+J
-  Wrap With Abbreviation                         = Shift+Ctrl+G
-  Go to Edit Point                               = Ctrl+Alt+→ or Ctrl+Alt+←
-  Select Item                                    = Shift+Ctrl+. or Shift+Ctrl+,
-  Toggle Comment                                 = Shift+Ctrl+/
-  Split/Join Tag                                 = Shift+Ctrl+`
-  Remove Tag                                     = Shift+Ctrl+;
-  Update Image Size                              = Ctrl+U
-  Evaluate Math Expression                       = Shift+Ctrl+Y
-  Reflect CSS Value                              = Shift+Ctrl+R
-  Encode/Decode Image to data/URL                = Ctrl+'
-  Rename Tag                                     = / Shift+Ctrl+'
-  Increment by 1                                 = Ctrl+↑
-  Decrement by 1                                 = Ctrl+↓
-  Increment by 0.1                               = Alt+↑
-  Decrement by 0.1                               = Alt+↓
-  Increment by 10                                = Shift+Alt+↑
-  Decrement by 10                                = Shift+Alt+↓
-  Expand selection to quotes                     = Ctrl+'
+  Expand Abbreviation                            = tab or ctrl + e
+  Interactive “Expand Abbreviation”              = ctrl + alt + enter
+  Match Tag Pair Outward                         = ctrl + ,
+  Match Tag Pair Inward                          = shift + ctrl + 0
+  Go to Matching Pair                            = ctrl + alt + j
+  Wrap With Abbreviation                         = shift + ctrl + g
+  Go to Edit Point                               = ctrl + alt + → or ctrl + alt + ←
+  Select Item                                    = shift + ctrl + . or shift + ctrl + ,
+  Toggle Comment                                 = shift + ctrl + /
+  Split/Join Tag                                 = shift + ctrl + `
+  Remove Tag                                     = shift + ctrl + ;
+  Update Image Size                              = ctrl + u
+  Evaluate Math Expression                       = shift + ctrl + y
+  Reflect CSS Value                              = shift + ctrl + r
+  Encode/Decode Image to data/URL                = ctrl + '
+  Rename Tag                                     = shift + ctrl + '
+  Increment by 1                                 = ctrl + ↑
+  Decrement by 1                                 = ctrl + ↓
+  Increment by 0.1                               = alt + ↑
+  Decrement by 0.1                               = alt + ↓
+  Increment by 10                                = shift + alt + ↑
+  Decrement by 10                                = shift + alt + ↓
+  Expand selection to quotes                     = ctrl + '
 
 SublimeCodeIntel:
-  Jump to definition                             = Alt+Click
-  Jump to definition                             = Control+Windows+Alt+Up
-  Go back                                        = Control+Windows+Alt+Left
-  Manual Code Intelligence                       = Control+Shift+space
+  Jump to definition                             = alt + click
+  Jump to definition                             = ctrl + windows + alt + up
+  Go back                                        = ctrl + windows + alt + left
+  Manual Code Intelligence                       = ctrl + shift + space
   AdvancedNewFile                                =
   create new file                                = ctrl + alt + n
 
-oddly                                            = alt+shift+o
+oddly                                            = alt + shift + o
 
 commande git utile :
 git log -p -x
