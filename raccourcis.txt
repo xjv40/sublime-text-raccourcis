@@ -24,39 +24,41 @@ Color Picker                                     = ctrl + shift + c
 Duplicate Lines                                  = ctrl + shift + d
 
 Emmet:
-  Expand Abbreviation                            = tab or ctrl + e
-  Interactive “Expand Abbreviation”              = ctrl + alt + enter
-  Match Tag Pair Outward                         = ctrl + ,
-  Match Tag Pair Inward                          = shift + ctrl + 0
-  Go to Matching Pair                            = ctrl + alt + j
-  Wrap With Abbreviation                         = shift + ctrl + g
-  Go to Edit Point                               = ctrl + alt + → or ctrl + alt + ←
-  Select Item                                    = shift + ctrl + . or shift + ctrl + ,
-  Toggle Comment                                 = shift + ctrl + /
-  Split/Join Tag                                 = shift + ctrl + `
-  Remove Tag                                     = shift + ctrl + ;
-  Update Image Size                              = ctrl + u
-  Evaluate Math Expression                       = shift + ctrl + y
-  Reflect CSS Value                              = shift + ctrl + r
-  Encode/Decode Image to data/URL                = ctrl + '
-  Rename Tag                                     = shift + ctrl + '
-  Increment by 1                                 = ctrl + ↑
-  Decrement by 1                                 = ctrl + ↓
-  Increment by 0.1                               = alt + ↑
-  Decrement by 0.1                               = alt + ↓
-  Increment by 10                                = shift + alt + ↑
-  Decrement by 10                                = shift + alt + ↓
-  Expand selection to quotes                     = ctrl + '
+  expand Abbreviation                            = tab or ctrl + e
+  interactive “Expand Abbreviation”              = ctrl + alt + enter
+  match Tag Pair Outward                         = ctrl + ,
+  match Tag Pair Inward                          = shift + ctrl + 0
+  go to Matching Pair                            = ctrl + alt + j
+  wrap With Abbreviation                         = shift + ctrl + g
+  go to Edit Point                               = ctrl + alt + → or ctrl + alt + ←
+  select Item                                    = shift + ctrl + . or shift + ctrl + ,
+  toggle Comment                                 = shift + ctrl + /
+  split/Join Tag                                 = shift + ctrl + `
+  remove Tag                                     = shift + ctrl + ;
+  update Image Size                              = ctrl + u
+  evaluate Math Expression                       = shift + ctrl + y
+  reflect CSS Value                              = shift + ctrl + r
+  encode/Decode Image to data/URL                = ctrl + '
+  rename Tag                                     = shift + ctrl + '
+  increment by 1                                 = ctrl + ↑
+  decrement by 1                                 = ctrl + ↓
+  increment by 0.1                               = alt + ↑
+  decrement by 0.1                               = alt + ↓
+  increment by 10                                = shift + alt + ↑
+  decrement by 10                                = shift + alt + ↓
+  expand selection to quotes                     = ctrl + '
 
 SublimeCodeIntel:
-  Jump to definition                             = alt + click
-  Jump to definition                             = ctrl + windows + alt + up
-  Go back                                        = ctrl + windows + alt + left
-  Manual Code Intelligence                       = ctrl + shift + space
-  AdvancedNewFile                                =
+  jump to definition                             = alt + click
+  jump to definition                             = ctrl + windows + alt + up
+  go back                                        = ctrl + windows + alt + left
+  manual Code Intelligence                       = ctrl + shift + space
+  advancedNewFile                                =
   create new file                                = ctrl + alt + n
 
-oddly                                            = alt + shift + o
+oddly:
+  splits your selection into lines                 = alt + shift + o
+    where only every 2nd/3rd.. line is added                                            
 
 commande git utile :
 git log -p -x
