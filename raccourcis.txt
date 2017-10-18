@@ -3,15 +3,19 @@ delete from cursor to end of line                = ctrl + kk
 delete from cursor to start of line              = ctrl + k + del
 select line - Repeat to select next lines        = ctrl + l
 select word - reapeat to select other occurences = ctrl + d
+select block of code                             = ctrl + maj + j
+join line below to the end of the current line   = ctrl + j
 duplicate line(s)                                = ctrl + maj + d
 jump to closing parentheses                      = ctrl + m
-select all contents of the current parentheses   = ctrl + shift + M
+select all contents of the current parentheses   = ctrl + shift + m
 invert 2 letters or word                         = ctrl + t
 search in any files                              = ctrl + p
 past and indent correctly                        = ctrl + shift + v
 go to function                                   = ctrl + r == ctrl + p and @
 go to word                                       = ctrl + ; == ctrl + p and #
 go to line                                       = ctrl + g == ctrl + p and :
+toggle side bar                                  = ctrk + kb
+show scope in status bar                         = ctrl + maj + alt + p
 
 sublime alignment                                = ctrl + alt + a (make it many times)
 
