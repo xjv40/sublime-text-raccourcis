@@ -1,63 +1,67 @@
-delete line                                      = ctrl + shift + k
-delete from cursor to end of line                = ctrl + kk
-delete from cursor to start of line              = ctrl + k + del
-select line - Repeat to select next lines        = ctrl + l
-select word - reapeat to select other occurences = ctrl + d
-select block of code                             = ctrl + maj + j
-join line below to the end of the current line   = ctrl + j
-duplicate line(s)                                = ctrl + maj + d
-jump to closing parentheses                      = ctrl + m
-select all contents of the current parentheses   = ctrl + shift + m
-invert 2 letters or word                         = ctrl + t
-search in any files                              = ctrl + p
-past and indent correctly                        = ctrl + shift + v
-go to function                                   = ctrl + r == ctrl + p and @
-go to word                                       = ctrl + ; == ctrl + p and #
-go to line                                       = ctrl + g == ctrl + p and :
-toggle side bar                                  = ctrk + kb
-show scope in status bar                         = ctrl + maj + alt + p
+delete line                         = ctrl + shift + k
+delete from cursor to end of line   = ctrl + kk
+delete from cursor to start of line = ctrl + k + del
+select line - Repeat
+  to select next lines              = ctrl + l
+select word - reapeat to select
+other occurences                    = ctrl + d
+select block of code                = ctrl + maj + j
+join line below to the
+  end of the current line             = ctrl + j
+duplicate line(s)                   = ctrl + maj + d
+jump to closing parentheses         = ctrl + m
+select all contents of
+  the current parentheses             = ctrl + shift + m
+invert 2 letters or word            = ctrl + t
+search in any files                 = ctrl + p
+past and indent correctly           = ctrl + shift + v
+go to function                      = ctrl + r == ctrl + p and @
+go to word                          = ctrl + ; == ctrl + p and #
+go to line                          = ctrl + g == ctrl + p and :
+toggle side bar                     = ctrk + kb
+show scope in status bar            = ctrl + maj + alt + p
+  
+sublime alignment                   = ctrl + alt + a (make it many times)
 
-sublime alignment                                = ctrl + alt + a (make it many times)
+Color Picker                        = ctrl + shift + c
 
-Color Picker                                     = ctrl + shift + c
-
-Duplicate Lines                                  = ctrl + shift + d
+Duplicate Lines                     = ctrl + shift + d
 
 Emmet:
-  expand Abbreviation                            = tab or ctrl + e
-  interactive “Expand Abbreviation”              = ctrl + alt + enter
-  match Tag Pair Outward                         = ctrl + ,
-  match Tag Pair Inward                          = shift + ctrl + 0
-  go to Matching Pair                            = ctrl + alt + j
-  wrap With Abbreviation                         = shift + ctrl + g
-  go to Edit Point                               = ctrl + alt + → or ctrl + alt + ←
-  select Item                                    = shift + ctrl + . or shift + ctrl + ,
-  toggle Comment                                 = shift + ctrl + /
-  split/Join Tag                                 = shift + ctrl + `
-  remove Tag                                     = shift + ctrl + ;
-  update Image Size                              = ctrl + u
-  evaluate Math Expression                       = shift + ctrl + y
-  reflect CSS Value                              = shift + ctrl + r
-  encode/Decode Image to data/URL                = ctrl + '
-  rename Tag                                     = shift + ctrl + '
-  increment by 1                                 = ctrl + ↑
-  decrement by 1                                 = ctrl + ↓
-  increment by 0.1                               = alt + ↑
-  decrement by 0.1                               = alt + ↓
-  increment by 10                                = shift + alt + ↑
-  decrement by 10                                = shift + alt + ↓
-  expand selection to quotes                     = ctrl + '
+  expand Abbreviation               = tab or ctrl + e
+  interactive “Expand Abbreviation” = ctrl + alt + enter
+  match Tag Pair Outward            = ctrl + ,
+  match Tag Pair Inward             = shift + ctrl + 0
+  go to Matching Pair               = ctrl + alt + j
+  wrap With Abbreviation            = shift + ctrl + g
+  go to Edit Point                  = ctrl + alt + → or ctrl + alt + ←
+  select Item                       = shift + ctrl + . or shift + ctrl + ,
+  toggle Comment                    = shift + ctrl + /
+  split/Join Tag                    = shift + ctrl + `
+  remove Tag                        = shift + ctrl + ;
+  update Image Size                 = ctrl + u
+  evaluate Math Expression          = shift + ctrl + y
+  reflect CSS Value                 = shift + ctrl + r
+  encode/Decode Image to data/URL   = ctrl + '
+  rename Tag                        = shift + ctrl + '
+  increment by 1                    = ctrl + ↑
+  decrement by 1                    = ctrl + ↓
+  increment by 0.1                  = alt + ↑
+  decrement by 0.1                  = alt + ↓
+  increment by 10                   = shift + alt + ↑
+  decrement by 10                   = shift + alt + ↓
+  expand selection to quotes        = ctrl + '
 
 SublimeCodeIntel:
-  jump to definition                             = alt + click
-  jump to definition                             = ctrl + windows + alt + up
-  go back                                        = ctrl + windows + alt + left
-  manual Code Intelligence                       = ctrl + shift + space
-  advancedNewFile                                =
-  create new file                                = ctrl + alt + n
+  jump to definition                = alt + click
+  jump to definition                = ctrl + windows + alt + up
+  go back                           = ctrl + windows + alt + left
+  manual Code Intelligence          = ctrl + shift + space
+  advancedNewFile                   =
+  create new file                   = ctrl + alt + n
 
 oddly:
-  splits your selection into lines                 = alt + shift + o
+  splits your selection into lines  = alt + shift + o
     where only every 2nd/3rd.. line is added                                            
 
 commande git utile :
