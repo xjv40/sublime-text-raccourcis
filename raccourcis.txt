@@ -20,14 +20,18 @@ go to word                          = ctrl + ; == ctrl + p and #
 go to line                          = ctrl + g == ctrl + p and :
 toggle side bar                     = ctrk + kb
 show scope in status bar            = ctrl + shift + alt + p
+transform to uppercase              = ctrl + ku
+transform to lowercase              = ctrl + kl
+paste from history                  = ctrl+k, ctrl+v
   
 sublime alignment                   = ctrl + alt + a (make it many times)
 
-Color Picker                        = ctrl + shift + c
+color Picker                        = ctrl + shift + c
 
-Duplicate Lines                     = ctrl + shift + d
+duplicate lines                     = ctrl + shift + d
 
-Emmet:
+emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
+  and strings in programming language like JavaScript, Python, Ruby ...):
   expand Abbreviation               = tab or ctrl + e
   interactive “Expand Abbreviation” = ctrl + alt + enter
   match Tag Pair Outward            = ctrl + ,
@@ -52,7 +56,7 @@ Emmet:
   decrement by 10                   = shift + alt + ↓
   expand selection to quotes        = ctrl + '
 
-SublimeCodeIntel:
+sublimeCodeIntel (need to restart after installation):
   jump to definition                = alt + click
   jump to definition                = ctrl + windows + alt + up
   go back                           = ctrl + windows + alt + left
@@ -60,11 +64,17 @@ SublimeCodeIntel:
   advancedNewFile                   =
   create new file                   = ctrl + alt + n
 
+goto documentation:
+  goto documentation                = windows + shift + h
+
 oddly:
   splits your selection into lines  = alt + shift + o
-    where only every 2nd/3rd.. line is added                                            
+    where only every 2nd/3rd.. line is added             
 
-commande git utile :
+pretty JSON:
+  make JSON pretty                  = ctrl + alt + j                               
+
+commandes git utiles :
 git log -p -x
 -p permet de voir les modifs effectuees
 -x désigne le nombre de commits à afficher
