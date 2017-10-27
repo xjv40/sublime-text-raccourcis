@@ -74,6 +74,13 @@ oddly:
 pretty JSON:
   make JSON pretty                  = ctrl + alt + j                               
 
+SublimeLinter (need to adapt to this config of key bindings)
+  lint                              = ctrl + kl
+  next Error                        = ctrl + kn
+  prev. Error                       = ctrl + kp
+  show All Errors                   = ctrl + ka
+  toggle Linter                     = ctrl + kt
+
 commandes git utiles :
 git log -p -x
 -p permet de voir les modifs effectuees
