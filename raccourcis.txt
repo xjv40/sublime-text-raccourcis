@@ -22,7 +22,10 @@ toggle side bar                     = ctrk + kb
 show scope in status bar            = ctrl + shift + alt + p
 transform to uppercase              = ctrl + ku
 transform to lowercase              = ctrl + kl
-paste from history                  = ctrl+k, ctrl+v
+paste from history                  = ctrl + k, ctrl + v
+jump to group where num is 1-4      = ctrl + [num]
+move file to specified group where  = ctrl + shift + [num]
+  num is 1-4
   
 sublime alignment                   = ctrl + alt + a (make it many times)
 
