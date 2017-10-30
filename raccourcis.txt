@@ -62,6 +62,8 @@ commandes git utiles :
 git log -p -x
 -p permet de voir les modifs effectuees
 -x désigne le nombre de commits à afficher
+--oneline permet de n'afficher que la première ligne du message du commit
+--graph affiche un graphique text représentant l'historique des commits
 
 
 
