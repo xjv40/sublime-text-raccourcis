@@ -13,8 +13,9 @@ jump to closing parentheses         = ctrl + m
 select all contents of
   the current parentheses           = ctrl + shift + m
 invert 2 letters or word            = ctrl + t
-search in any files                 = ctrl + p
 past and indent correctly           = ctrl + shift + v
+command palette                     = ctrl + shift + p
+search in any files                 = ctrl + p
 go to function                      = ctrl + r == ctrl + p and @
 go to word                          = ctrl + ; == ctrl + p and #
 go to line                          = ctrl + g == ctrl + p and :
