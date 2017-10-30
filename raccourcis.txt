@@ -33,32 +33,6 @@ color Picker                        = ctrl + shift + c
 
 duplicate lines                     = ctrl + shift + d
 
-emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
-  and strings in programming language like JavaScript, Python, Ruby ...):
-  expand Abbreviation               = tab or ctrl + e
-  interactive “Expand Abbreviation” = ctrl + alt + enter
-  match Tag Pair Outward            = ctrl + ,
-  match Tag Pair Inward             = shift + ctrl + 0
-  go to Matching Pair               = ctrl + alt + j
-  wrap With Abbreviation            = shift + ctrl + g
-  go to Edit Point                  = ctrl + alt + → or ctrl + alt + ←
-  select Item                       = shift + ctrl + . or shift + ctrl + ,
-  toggle Comment                    = shift + ctrl + /
-  split/Join Tag                    = shift + ctrl + `
-  remove Tag                        = shift + ctrl + ;
-  update Image Size                 = ctrl + u
-  evaluate Math Expression          = shift + ctrl + y
-  reflect CSS Value                 = shift + ctrl + r
-  encode/Decode Image to data/URL   = ctrl + '
-  rename Tag                        = shift + ctrl + '
-  increment by 1                    = ctrl + ↑
-  decrement by 1                    = ctrl + ↓
-  increment by 0.1                  = alt + ↑
-  decrement by 0.1                  = alt + ↓
-  increment by 10                   = shift + alt + ↑
-  decrement by 10                   = shift + alt + ↓
-  expand selection to quotes        = ctrl + '
-
 sublimeCodeIntel (need to restart after installation):
   jump to definition                = alt + click
   jump to definition                = ctrl + windows + alt + up
@@ -88,3 +62,31 @@ commandes git utiles :
 git log -p -x
 -p permet de voir les modifs effectuees
 -x désigne le nombre de commits à afficher
+
+
+
+emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
+  and strings in programming language like JavaScript, Python, Ruby ...):
+  expand Abbreviation               = tab or ctrl + e
+  interactive “Expand Abbreviation” = ctrl + alt + enter
+  match Tag Pair Outward            = ctrl + ,
+  match Tag Pair Inward             = shift + ctrl + 0
+  go to Matching Pair               = ctrl + alt + j
+  wrap With Abbreviation            = shift + ctrl + g
+  go to Edit Point                  = ctrl + alt + → or ctrl + alt + ←
+  select Item                       = shift + ctrl + . or shift + ctrl + ,
+  toggle Comment                    = shift + ctrl + /
+  split/Join Tag                    = shift + ctrl + `
+  remove Tag                        = shift + ctrl + ;
+  update Image Size                 = ctrl + u
+  evaluate Math Expression          = shift + ctrl + y
+  reflect CSS Value                 = shift + ctrl + r
+  encode/Decode Image to data/URL   = ctrl + '
+  rename Tag                        = shift + ctrl + '
+  increment by 1                    = ctrl + ↑
+  decrement by 1                    = ctrl + ↓
+  increment by 0.1                  = alt + ↑
+  decrement by 0.1                  = alt + ↓
+  increment by 10                   = shift + alt + ↑
+  decrement by 10                   = shift + alt + ↓
+  expand selection to quotes        = ctrl + '
