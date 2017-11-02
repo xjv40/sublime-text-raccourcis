@@ -42,6 +42,42 @@ sublimeCodeIntel (need to restart after installation):
   advancedNewFile                   =
   create new file                   = ctrl + alt + n
 
+plainTasks:
+  move tasks up and down = ctrl + shift + up/down
+  new task                          = ctrl + enter
+  toggle task as completed          = ctrl + d
+  toggle task as cancelled          = alt + c
+  archive the done tasks, by        = ctrl + shift + a
+    removing them from your list 
+    and appending them to the bottom
+    of the file under Archive project
+  archive in Org-Mode style,        = ctrl + shift + o
+    removing the entire subtree after cursor
+    and appending it to new file
+    next to original one, e.g. if
+    original is filename.TODO then
+    new would be filename_archive.TODO
+  open the url under the cursor in  = ctrl + shift + u
+    your default browser, other than
+    http(s) schemes must be enclosed
+    within <>, e.g. <skype:nickname>
+
+  You can create a link to a file within your project
+    by prefixing the file name with a dot and
+    (back)slash like: .\filename\ or ./another filename/.
+  The line and column can be specified by colons: .\filename:11:8.
+  In SublimeText 3 you can specify a symbol inside
+    that file by using > character like: .\filename>symbol.    
+  open the file in Sublime and      = alt + o
+    scroll to specific position if any
+  Also in SublimeText 3 link may point to directory,
+    open such link will add the directory
+    to current project (sidebar).
+
+  You can add tags using @ sign
+
+
+
 goto documentation:
   goto documentation                = windows + shift + h
 
@@ -68,8 +104,8 @@ git log -p -x
 -x désigne le nombre de commits à afficher
 --oneline permet de n'afficher que la première ligne du message du commit
 --graph affiche un graphique text représentant l'historique des commits
-
-
+git pull --rebase=preserve permet si des gens ont enregistré des modifs depuis
+  de les récupérer et des les rajouter après.
 
 emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
   and strings in programming language like JavaScript, Python, Ruby ...):
