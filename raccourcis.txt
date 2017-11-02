@@ -59,6 +59,9 @@ SublimeLinter (need to adapt to this config of key bindings)
   show All Errors                   = ctrl + ka
   toggle Linter                     = ctrl + kt
 
+AdvancedNewFile:
+  New File                          = ctrl + alt + n
+
 commandes git utiles :
 git log -p -x
 -p permet de voir les modifs effectuees
