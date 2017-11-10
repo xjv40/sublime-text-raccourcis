@@ -3,6 +3,7 @@ delete from cursor to end of line   = ctrl + kk
 delete from cursor to start of line = ctrl + k + del
 select line - Repeat
   to select next lines              = ctrl + l
+  splits the selections into lines  = ctrl + shift + l
 select word - reapeat to select
 other occurences                    = ctrl + d
 select block of code                = ctrl + shift + j
@@ -27,7 +28,22 @@ paste from history                  = ctrl + k, ctrl + v
 jump to group where num is 1-4      = ctrl + [num]
 move file to specified group where  = ctrl + shift + [num]
   num is 1-4
-  
+give the focus to the side bar      = ctrl + 0
+return the focus to the view        = Esc
+navigate side bar                   = Arrow keys
+create new pane                     = ctrl + k + up
+select some text and press to add   = ctrl + d
+  more instances.
+if you want to skip the current     = ctrl + k, ctrl + d
+  instance, press
+if you want to go far, press to     = ctrl + u
+  deselect the current instance.
+select block                        = ctrl + alt + up/down
+select subwords                     = alt + shift + <arrow>
+expand selection to brackets        = ctrl + shift + m
+expand selection to indentation     = ctrl + shift + j
+expand selection to scope           = ctrl + shift + space
+
 sublime alignment                   = ctrl + alt + a (make it many times)
 
 color Picker                        = ctrl + shift + c
