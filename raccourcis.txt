@@ -21,8 +21,8 @@ go to word                          = ctrl + ; == ctrl + p and #
 go to line                          = ctrl + g == ctrl + p and :
 toggle side bar                     = ctrk + kb
 show scope in status bar            = ctrl + shift + alt + p
-transform to uppercase              = ctrl + ku
-transform to lowercase              = ctrl + kl
+transform to uppercase              = ctrl + k + u
+transform to lowercase              = ctrl + k + l
 paste from history                  = ctrl + k, ctrl + v
 jump to group where num is 1-4      = ctrl + [num]
 move file to specified group where  = ctrl + shift + [num]
