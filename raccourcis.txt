@@ -116,12 +116,24 @@ AdvancedNewFile:
 
 commandes git utiles :
 git log -p -x
--p permet de voir les modifs effectuees
--x désigne le nombre de commits à afficher
---oneline permet de n'afficher que la première ligne du message du commit
---graph affiche un graphique text représentant l'historique des commits
+  -p permet de voir les modifs effectuees
+  -x désigne le nombre de commits à afficher
+  --oneline permet de n'afficher que la première ligne du message du commit
+  --graph affiche un graphique text représentant l'historique des commits
 git pull --rebase=preserve permet si des gens ont enregistré des modifs depuis
   de les récupérer et des les rajouter après.
+git diff
+  --word-diff permet d'afficher les caractères modifiés et non les lignes
+  --ignore-all-spaces permet d'ignorer les modifications qui ne correspondent
+qu'à des ajouts ou à des suppressions de lignes
+git add -> git commit --amend pour modifier le dernier commit fait (équivalent
+de git reset --soft HEAD^)
+git checkout
+  -b créer la branche avant de se positionner dessus.
+git branch
+  -v Affiche plus ou moins d'informations à propos des commits sur les
+  -vv différentes branches.
+
 
 emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
   and strings in programming language like JavaScript, Python, Ruby ...):
@@ -147,4 +159,4 @@ emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
   decrement by 0.1                  = alt + ↓
   increment by 10                   = shift + alt + ↑
   decrement by 10                   = shift + alt + ↓
-  expand selection to quotes        = ctrl + '
+  expand selection to quotes        = ctrl + ²
