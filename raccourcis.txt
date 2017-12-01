@@ -20,6 +20,7 @@ search in any files                 = ctrl + p
 go to function                      = ctrl + r == ctrl + p and @
 go to word                          = ctrl + ; == ctrl + p and #
 go to line                          = ctrl + g == ctrl + p and :
+go to definition                    = F12
 toggle side bar                     = ctrk + kb
 show scope in status bar            = ctrl + shift + alt + p
 transform to uppercase              = ctrl + k + u
@@ -43,6 +44,14 @@ select subwords                     = alt + shift + <arrow>
 expand selection to brackets        = ctrl + shift + m
 expand selection to indentation     = ctrl + shift + j
 expand selection to scope           = ctrl + shift + space
+expand selection to line            = ctrl + l 
+expand selection to word            = ctrl + d
+bookmark
+toggle bookmark                     = ctrl + f2
+next bookmark                       = f2
+prev bookmark                       = shift + f2
+clear bookmark                      = ctrl + shift + f2
+select all bookmarks                = alt + f2
 
 sublime alignment                   = ctrl + alt + a (make it many times)
 
