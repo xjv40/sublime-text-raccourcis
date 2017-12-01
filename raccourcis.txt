@@ -48,8 +48,6 @@ sublime alignment                   = ctrl + alt + a (make it many times)
 
 color Picker                        = ctrl + shift + c
 
-duplicate lines                     = ctrl + shift + d
-
 sublimeCodeIntel (need to restart after installation):
   jump to definition                = alt + click
   jump to definition                = ctrl + windows + alt + up
