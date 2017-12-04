@@ -52,6 +52,8 @@ next bookmark                       = f2
 prev bookmark                       = shift + f2
 clear bookmark                      = ctrl + shift + f2
 select all bookmarks                = alt + f2
+new file                            = ctrl + n
+spell check                         = f6
 
 sublime alignment                   = ctrl + alt + a (make it many times)
 
