@@ -124,11 +124,11 @@ AdvancedNewFile:
   New File                          = ctrl + alt + n
 
 Clipboard History
-  show the history                  = ctrl-alt-v
-  clear the history                 = ctrl-alt-d
-  paste the previous (older)        = ctrl-shift-v
+  show the history                  = ctrl + alt + v
+  clear the history                 = ctrl + alt + d
+  paste the previous (older)        = ctrl + shift + v
     history entry
-  paste the next (newer)            = ctrl-shift-alt-v
+  paste the next (newer)            = ctrl + shift + alt + v
     history entry
 
 commandes git utiles :
