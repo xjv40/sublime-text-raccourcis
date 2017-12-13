@@ -138,8 +138,8 @@ git log -p -x
   --oneline permet de n'afficher que la première ligne du message du commit
   --graph affiche un graphique text représentant l'historique des commits
   --word-diff permet d'afficher les caractères modifiés et non les lignes
-  --stat permet d'afficher la liste des fichiers modifiés, le nombre de fichiers
-changés et le nombre de lignes modifiées.
+  --stat permet d'afficher la liste des fichiers modifiés, le nombre de 
+fichiers changés et le nombre de lignes modifiées.
   --since=? permet de sélectionner les commits depuis une date
   --until=? permet de sélectionner les commits jusqu'à une date
   --grep permet de rechercher des mots-clés dans les messages
@@ -149,11 +149,16 @@ git diff
   --word-diff permet d'afficher les caractères modifiés et non les lignes
   --ignore-all-spaces permet d'ignorer les modifications qui ne correspondent
 qu'à des ajouts ou à des suppressions de lignes
+  --staged permet de voir les modifications effectuées dans les fichiers
+indexés.
 git add -> git commit --amend pour modifier le dernier commit fait (équivalent
 de git reset --soft HEAD^)
 git commit
   --amend permet de modifier le dernier commit afin de permettre par exemple de
-  rajouter un fichier ou de modifier le message du commit.
+rajouter un fichier ou de modifier le message du commit.
+  -v permet de voir les lignes modifiées qui vont être enregistrées.
+  -a permet de placer automatiquement tout fichier déjà en suivi de version
+dans la zone d'index avant de réaliser la validation.
   ex:
     $ git commit -m "validation initiale"
     $ git add fichier_oublie
@@ -161,10 +166,17 @@ git commit
     Cela donne un unique commit.
 git checkout
   -b créer la branche avant de se positionner dessus.
+  -- nom_fichier permet d'annuler les modifications, elles ont été supprimées
+et ne sont pas récupérables.
 git branch
   -v Affiche plus ou moins d'informations à propos des commits sur les
   -vv différentes branches.
-
+git show +hash permet de voir les modifs effectuées par ce commit.
+git stash
+  save "blabla" permet d'ajouter un message lors du remisage du code.
+  -u permet d'ajouter les fichiers non suivis (unstaged).
+  pop permet de revenir à l'état précédent et supprime aussi le remisage
+effectué, c'est un équivalent des commandes : git stash apply et git stash drop
 
 emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
   and strings in programming language like JavaScript, Python, Ruby ...):
