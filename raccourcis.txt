@@ -178,6 +178,9 @@ git stash
   pop permet de revenir à l'état précédent et supprime aussi le remisage
 effectué, c'est un équivalent des commandes : git stash apply et git stash drop
 
+git status
+  -s (short) permet d'affiche de manière plus concise les même informations.
+
 emmet (not installed, work for HTML, XML, HAML, CSS, SASS/SCSS, LESS, PostCSS
   and strings in programming language like JavaScript, Python, Ruby ...):
   expand Abbreviation               = tab or ctrl + e
