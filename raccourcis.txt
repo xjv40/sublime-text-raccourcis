@@ -4,7 +4,7 @@ delete from cursor to start of line = ctrl + k + del
 select line - Repeat
   to select next lines              = ctrl + l
   splits the selections into lines  = ctrl + shift + l
-select word - reapeat to select
+select word - repeat to select
 other occurences                    = ctrl + d
 select block of code                = ctrl + shift + j
 join line below to the
