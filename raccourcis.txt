@@ -44,7 +44,7 @@ select subwords                     = alt + shift + <arrow>
 expand selection to brackets        = ctrl + shift + m
 expand selection to indentation     = ctrl + shift + j
 expand selection to scope           = ctrl + shift + space
-expand selection to line            = ctrl + l 
+expand selection to line            = ctrl + l
 expand selection to word            = ctrl + d
 bookmark
 toggle bookmark                     = ctrl + f2
@@ -73,7 +73,7 @@ plainTasks:
   toggle task as completed          = ctrl + d
   toggle task as cancelled          = alt + c
   archive the done tasks, by        = ctrl + shift + a
-    removing them from your list 
+    removing them from your list
     and appending them to the bottom
     of the file under Archive project
   archive in Org-Mode style,        = ctrl + shift + o
@@ -92,7 +92,7 @@ plainTasks:
     (back)slash like: .\filename\ or ./another filename/.
   The line and column can be specified by colons: .\filename:11:8.
   In SublimeText 3 you can specify a symbol inside
-    that file by using > character like: .\filename>symbol.    
+    that file by using > character like: .\filename>symbol.
   open the file in Sublime and      = alt + o
     scroll to specific position if any
   Also in SublimeText 3 link may point to directory,
@@ -108,10 +108,10 @@ goto documentation:
 
 oddly:
   splits your selection into lines  = alt + shift + o
-    where only every 2nd/3rd.. line is added             
+    where only every 2nd/3rd.. line is added
 
 pretty JSON:
-  make JSON pretty                  = ctrl + alt + j                               
+  make JSON pretty                  = ctrl + alt + j
 
 SublimeLinter (need to adapt to this config of key bindings)
   lint                              = ctrl + kl
@@ -139,7 +139,7 @@ git log -p -x
   --oneline permet de n'afficher que la première ligne du message du commit
   --graph affiche un graphique text représentant l'historique des commits
   --word-diff permet d'afficher les caractères modifiés et non les lignes
-  --stat permet d'afficher la liste des fichiers modifiés, le nombre de 
+  --stat permet d'afficher la liste des fichiers modifiés, le nombre de
 fichiers changés et le nombre de lignes modifiées.
   --since=? permet de sélectionner les commits depuis une date
   --until=? permet de sélectionner les commits jusqu'à une date
