@@ -67,6 +67,9 @@ sublimeCodeIntel:
   advancedNewFile                   =
   create new file                   = ctrl + alt + n
 
+DocBlockr:
+  function documentation            = /** + tab
+
 plainTasks:
   move tasks up and down = ctrl + shift + up/down
   new task                          = ctrl + enter
