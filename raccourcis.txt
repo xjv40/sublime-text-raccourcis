@@ -59,7 +59,7 @@ sublime alignment                   = ctrl + alt + a (make it many times)
 
 color Picker                        = ctrl + shift + c
 
-sublimeCodeIntel (need to restart after installation):
+sublimeCodeIntel:
   jump to definition                = alt + click
   jump to definition                = ctrl + windows + alt + up
   go back                           = ctrl + windows + alt + left
