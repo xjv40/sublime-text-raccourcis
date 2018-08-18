@@ -103,6 +103,7 @@ plainTasks:
     to current project (sidebar).
 
   You can add tags using @ sign
+  see all tags                      = ctrl + space
 
 
 
