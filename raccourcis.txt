@@ -71,7 +71,7 @@ DocBlockr:
   function documentation            = /** + tab
 
 plainTasks:
-  move tasks up and down = ctrl + shift + up/down
+  move tasks up and down            = ctrl + shift + up/down
   new task                          = ctrl + enter
   toggle task as completed          = ctrl + d
   toggle task as cancelled          = alt + c
