@@ -154,6 +154,9 @@ fichiers changés et le nombre de lignes modifiées.
   --until=? permet de sélectionner les commits jusqu'à une date
   --grep permet de rechercher des mots-clés dans les messages
 
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 git pull --rebase=preserve permet si des gens ont enregistré des modifs depuis
   de les récupérer et des les rajouter après.
 
