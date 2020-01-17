@@ -137,9 +137,10 @@ Clipboard History
 
 commandes git utiles :
 
-Pour comparer les données entre un dépôt distant :
+Pour comparer les données avec un dépôt distant :
 - git fetch <remote>
-- git diff master origin/master
+- git diff master <remote>/master
+- git merge <remote>/master
 
 git log -p -x
   -p permet de voir les modifs effectuees
