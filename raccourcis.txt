@@ -143,7 +143,7 @@ Pour comparer les données avec un dépôt distant :
 - git merge <remote>/master
 
 git log -p -x
-  -p permet de voir les modifs effectuees
+  -p permet de voir les modifs effectuées
   -x désigne le nombre de commits à afficher
   --oneline permet de n'afficher que la première ligne du message du commit
   --graph affiche un graphique text représentant l'historique des commits
@@ -158,7 +158,7 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 git pull --rebase=preserve permet si des gens ont enregistré des modifs depuis
-  de les récupérer et des les rajouter après.
+  pour les récupérer et les rajouter après.
 
 git diff
   --word-diff permet d'afficher les caractères modifiés et non les lignes
